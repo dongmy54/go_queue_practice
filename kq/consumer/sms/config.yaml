@@ -1,0 +1,10 @@
+Name: kq
+Brokers:
+- 127.0.0.1:9092
+- 127.0.0.1:9092
+- 127.0.0.1:9092
+Group: sms # 通过消费者组去做区分
+Topic: kq
+Offset: first
+Consumers: 1
+
